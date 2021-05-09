@@ -127,7 +127,7 @@
         $string = '';
         $i = 1;
         foreach ($keywords as $k) {
-            $string .= '#'.url_slug($k) . ', ';
+            $string .= '#'.url_slug($k);
             if ($i++ == 10) break;
         }
         return $string;
